@@ -47,5 +47,14 @@
 <input type="text" id="name" placeholder="Enter your name" />
 <button onclick="button_click()">Click me!</button>
 </div>
+    <script type="text/javascript">
+        function button_click() {
+            let name = document.querySelector("#name").value;
+            let result = confirm("I Like" + name + ". Do you like me?");
+            While (result!== true) {
+                result = confirm("I Like" + name + ". Do you like me?"); 
+            }
+        }
+    </script>
 </body>
 </html>
